@@ -27,12 +27,20 @@ const learner = [
   "Stacy",
 ];
 
-let newSection = document.createElement("section");
+const article = document.getElementById('art');
 
-let newP = document.createElement("p");
 
-newP.textContent = learner;
-console.log(newP);
+learner.forEach((element) => {
+
+  const newP = document.createElement('p');
+
+  newP.textContent = element;
+
+  newP.style.backgroundColor = randomBackground();
+
+  article.appendChild(newP);
+});
+
 
 function randomBackground() {
   let r = Math.floor(Math.random() * 256);
@@ -40,3 +48,5 @@ function randomBackground() {
   let b = Math.floor(Math.random() * 256);
   return `rgb(${r},${g},${b})`;
 }
+
+
