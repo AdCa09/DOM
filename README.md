@@ -1,5 +1,5 @@
 # Manipulation du DOM en javascript
-*Ce dossier contient mes exercices effectuer qui avaient pour but d'apprendre à manipuler le Document Object Model (DOM) en JavaScript. Le DOM est une représentation hiérarchique des éléments HTML d'une page web, qui permet de les manipuler dynamiquement via du code JavaScript.*
+*Ce dossier contient mes exercices effectués qui avaient pour but d'apprendre à manipuler le Document Objet Model (DOM) en Javascript. Le DOM est une représentation hiérarchique des éléments HTML d'une page web, qui permet de les manipuler dynamiquement via du code Javascript.*
 
 ## Voici la pluparts des ressources utilisées :
 - [MDN Web Docs - Manipulating documents](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
